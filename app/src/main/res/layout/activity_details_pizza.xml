@@ -38,28 +38,29 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
                 android:text="Description: "
-                android:textSize="24sp"
-                android:textStyle="bold|italic" />
+                android:fontFamily="@font/almendra_sc"
+                android:gravity="center"
+                android:textSize="25sp" />
 
 
 
-    <TextView
-        android:id="@+id/idPizzaDescription"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="20dp"
-        android:text="TextView" />
+            <TextView
+                android:id="@+id/idPizzaDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:text="TextView" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-condensed"
-        android:text="Ingrediants: "
-        android:textSize="24sp"
-        android:textStyle="bold|italic" />
+            <TextView
+
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingrediants: "
+                android:fontFamily="@font/almendra_sc"
+                android:gravity="center"
+                android:textSize="25sp" />
 
 
 
@@ -76,10 +77,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
                 android:text="Preparation: "
-                android:textSize="24sp"
-                android:textStyle="bold|italic"/>
+                android:fontFamily="@font/almendra_sc"
+                android:gravity="center"
+                android:textSize="25sp"/>
 
             <TextView
                 android:id="@+id/idPizzaPreparation"
